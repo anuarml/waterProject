@@ -11,6 +11,9 @@
 |
 */
 
+Route::get('/', 'MainController@mainPage');
+
+/*
 Route::get('/', function () {
     return view('welcome');
-});
+});*/
